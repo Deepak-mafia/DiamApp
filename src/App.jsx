@@ -36,18 +36,25 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
+        {/* <p>
           Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        </p> */}
       </div>
       <div>
       {userData ? (
+        // <div>
+        //   <p>User ID: {userData.id}</p>
+        //   <p>Username: {userData.username}</p>
+        //   <p>First Name: {userData.firstName}</p>
+        //   <p>Last Name: {userData.lastName}</p>
+        // </div>
         <div>
-          <p>User ID: {userData.id}</p>
-          <p>Username: {userData.username}</p>
-          <p>First Name: {userData.firstName}</p>
-          <p>Last Name: {userData.lastName}</p>
-        </div>
+        <p>Hello {userData.firstName}! Welcome to the Dummy project.</p>
+        <p>This is your fetch Data of Telegram: </p>
+        <p>User Id: {userData.id}</p>
+        <p>Username: {userData.username}</p>
+        <p>Last Name: {userData.lastName}</p>
+      </div>
       ) : (
         <p>Loading user data...</p>
       )}
