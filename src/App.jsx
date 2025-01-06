@@ -59,9 +59,9 @@ function App() {
           <p>Loading user data...</p>
         )}
       </div>
-      <p className="read-the-docs">
+      {/* <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   );
 }
