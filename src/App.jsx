@@ -58,6 +58,24 @@ function App() {
         ) : (
           <p>Loading user data...</p>
         )}
+        <a
+          //   href="https://web.telegram.org/a/#-1001181289816"
+          //   target="_blank"
+          //   rel="noopener noreferrer"
+          //   className="text-blue-500 hover:text-blue-600"
+          // >
+          //   Open in Telegram Web
+          // </a>
+
+          // Or using the t.me format (preferred)
+
+          href="https://t.me/c/1181289816"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-600"
+        >
+          Open in Telegram
+        </a>
       </div>
       {/* <p className="read-the-docs">
         Click on the Vite and React logos to learn more
